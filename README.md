@@ -8,6 +8,7 @@ DISTRO=linux-x64
 wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.xz   
 
 ### Decompress   
+mkdir -p  /usr/local/lib/nodejs/
 sudo tar -xvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/   
 
 ### Edit the bashrc or zshrc   
