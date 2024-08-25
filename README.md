@@ -3,17 +3,17 @@
 ## NodeJS Wiki install  
 
 ### Download the binaries
-VERSION=v18.17.1
-DISTRO=linux-x64
-wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.xz
+VERSION=v18.17.1   
+DISTRO=linux-x64   
+wget https://nodejs.org/dist/$VERSION/node-$VERSION-$DISTRO.tar.xz   
 
-### Decompress
-sudo tar -xvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/
+### Decompress   
+sudo tar -xvf node-$VERSION-$DISTRO.tar.xz -C /usr/local/lib/   
 
-### Edit the bashrc or zshrc 
-VERSION=v18.17.1
-DISTRO=linux-x64
-export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH
+### Edit the bashrc or zshrc   
+VERSION=v18.17.1   
+DISTRO=linux-x64   
+export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH   
 
 ### Reload
 source .bashrc 
