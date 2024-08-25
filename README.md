@@ -16,7 +16,7 @@ DISTRO=linux-x64
 export PATH=/usr/local/lib/nodejs/node-$VERSION-$DISTRO/bin:$PATH   
 
 ### Reload
-source ~/.bashrc 
+source ~/.bashrc  
 source ~/.zshrc
 
 **r00t-64/r00t-64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
